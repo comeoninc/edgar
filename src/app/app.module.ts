@@ -115,6 +115,7 @@ import {AppComponent} from './app.component';
   imports: [BrowserAnimationsModule]
 })
 export class MaterialModule {}
+import { Camera } from '@ionic-native/camera/ngx';
 
 @NgModule({
   imports: [
@@ -127,7 +128,9 @@ export class MaterialModule {}
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent, OverlayContainer],
-  providers: [{provide: OverlayContainer, useClass: FullscreenOverlayContainer}]
+  providers: [
+  Camera,
+  {provide: OverlayContainer, useClass: FullscreenOverlayContainer}]
 })
 export class AppModule {
   constructor(overlayContainer: OverlayContainer) {
