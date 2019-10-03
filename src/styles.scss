@@ -6,8 +6,6 @@ body {
 }
 body {
     font-family: "Sarabun", 'Roboto', 'Arial', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -28,10 +26,4 @@ a:hover {
 img {
     max-width: 100%;
     height: auto;
-}
-button, .button, .btn {
-box-shadow: 0 2px 5px 0 rgba(0,0,0,.12), 0 2px 5px 0 rgba(0,0,0,.19);
-text-decoration: none;
-border-radius: 3px;
-outline: none;
 }
