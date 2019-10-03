@@ -29,8 +29,8 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
-	      "src/assets/css/flexboxgrid.css",
 	      "./node_modules/@getbase/grid/scss/index.scss",
+	      "src/assets/css/flexboxgrid.css",
 	      "src/assets/scss/normalize.scss",
               "src/styles.scss"
             ],
