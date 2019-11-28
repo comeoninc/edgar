@@ -1,13 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
 
-html,
-body {
+// always include only once per project
+@include mat-core();
+
+
+/* You can add global styles to this file, and also import other style files */
+html {
     height: 100%;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 body {
     font-family: "Sarabun", 'Roboto', 'Arial', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 a {
     text-decoration: none;

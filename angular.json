@@ -28,13 +28,13 @@
               "src/assets"
             ],
             "styles": [
-	      "src/assets/scss/normalize.scss",
-              "src/styles.scss"
+	      "./node_modules/@getbase/base/scss/index.scss",
+	      "./src/assets/css/flexboxgrid.css",
+              "./src/styles.scss"
             ],
             "scripts": [
 	        "./node_modules/hammerjs/hammer.min.js",
-		"src/assets/js/flexboxgrid.js",
-		"src/assets/js/modernizrr.js"
+		"./src/assets/js/modernizrr.js"
 	    ]
           },
           "configurations": {
