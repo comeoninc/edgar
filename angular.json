@@ -29,11 +29,13 @@
             ],
             "styles": [
 	      "./node_modules/@getbase/base/scss/index.scss",
-	      "./src/assets/css/flexboxgrid.css",
+	      "./node_modules/gridster/src/jquery.gridster.css",
+	      "./src/assets/scss/normalize.scss",
               "./src/styles.scss"
             ],
             "scripts": [
 	        "./node_modules/hammerjs/hammer.min.js",
+	       "./node_modules/gridster/src/jquery.gridster.js",
 		"./src/assets/js/modernizrr.js"
 	    ]
           },
